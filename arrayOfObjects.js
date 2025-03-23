@@ -23,4 +23,4 @@ function createFamily(){
     return family;
 }
 
-console.log(family);
+console.log(createFamily());
