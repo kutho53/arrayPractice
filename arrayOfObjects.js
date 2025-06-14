@@ -45,6 +45,6 @@ console.log(family);
 //create filter function
 function filterBySex(sex){
     let group = [];
-    for (let i=0, if (member.sex === male), males.push(member));
+    for (let i=0, if (member.sex === 'male'), males.push(member)) else (females.push(member)); 
     return group;
 }
