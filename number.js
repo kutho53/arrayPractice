@@ -25,11 +25,11 @@ let even = filterEven();
 console.log (even);
 
 function filterOdd(){
-    let even = [];
+    let odd = [];
     for (let i = 0; i < fullArray.length; i++){
-        if (fullArray[i] % 2 === 0)
-        even.push(fullArray[i]);
+        if (fullArray[i] % 2 === !0)
+        odd.push(fullArray[i]);
     }
-    return even;
+    return odd;
 }
 
