@@ -42,7 +42,7 @@ console.log(family);
 console.log(createFamily('Walker', 0, 'male'));
 console.log(family);
 
-//create filter function
+// filter function
 function filterBySex(sex){
     let group = [];
     for (let i=0, if (member.sex === 'male'), males.push(member)) else (females.push(member)); 
